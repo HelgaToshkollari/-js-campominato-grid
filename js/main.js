@@ -10,9 +10,8 @@ btnGenerate.addEventListener("click", function(){
 
     for (let i = 1; i <= 100; i++){
         const newSquare = document.createElement("div");
-
         newSquare.classList.add("grid-squares");
-        newSquare.style.width = "calc ( 100% / 10 )";
+        newSquare.style.flexBasis = 100 /10 + "%";
         newSquare.innerHTML = i;
        
 
