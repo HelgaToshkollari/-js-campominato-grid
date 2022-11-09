@@ -4,17 +4,10 @@
     margin: 0;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.grid-squares{
+.grid-squares,.medium-squares, .easy-squares  {
     border: 1px solid black; 
     padding: 2rem;
     aspect-ratio: 1/1; 
-    
     justify-content: center;
     align-items: center;
 }
