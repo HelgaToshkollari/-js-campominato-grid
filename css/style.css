@@ -6,7 +6,12 @@
 .squares{
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% / 10 );
+    width: calc(100% / 10);
+    aspect-ratio: 1/1;
     border: 1px solid black;
     padding: 2rem;
+}
+
+.bgc-square{
+    background-color: blueviolet;
 }
