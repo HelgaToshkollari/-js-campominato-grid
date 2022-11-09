@@ -4,14 +4,24 @@
     margin: 0;
 }
 .squares{
+    
+   
+    
+   
+   
+}
+.container{
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% / 10);
-    aspect-ratio: 1/1;
-    border: 1px solid black;
-    padding: 2rem;
 }
 
+.grid-squares{
+    border: 1px solid black; 
+    padding: 2rem;
+    aspect-ratio: 1/1; 
+  
+
+}
 .bgc-square{
     background-color: blueviolet;
 }
